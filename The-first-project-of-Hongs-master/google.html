@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GOOGLE 새 탭</title>
+    <style>
+        #verytop {
+            display: grid;
+            grid-template-columns: 1000px 1fr 1fr 1fr 1fr;
+        }
+        
+        a, u {
+            text-decoration: none;
+            color: black;
+            font-size: 13px;
+        }   
+            #login {
+            outline: none;
+            background-color:skyblue;
+            width: 45px;
+            height: 25px;
+            border: 1px solid white;
+            color: white;
+            font-size: 100%;
+        }
+
+        #googleImage {
+            margin: 0 auto;
+            padding: 109px 0px 0px;
+            width: 272px;
+            height: 130px;
+        }
+
+        #textbox {
+            margin: 0 auto;
+            width: 450px;
+        }
+
+        #text {
+            outline: none;
+            width: 450px;
+            height: 40px;
+            border-radius: 50px 50px 50px 50px;
+            border: 1px solid lightgray;
+            color: gray;
+            background: url(mic.png) no-repeat right 10px center ;
+        }
+        a, u {
+            text-decoration: none;
+            color: black;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+    <div id="verytop">
+        <div>
+
+        </div>
+        <div>
+            <a href="https://mail.google.com">Gmail</a>
+        </div>
+        <div>
+            <a href="https://www.google.co.kr/imghp?hl=ko&tab=wi">이미지</a>
+        </div>
+        <div>
+            <a href="https://about.google/intl/ko/products/?tab=wh" 
+                title="Goolgle 앱"; 
+            >
+            <img src="google app image.png" width="20px" height="20px">
+            </a>
+        </div>
+        <div>
+            <a href="https://accounts.google.com/signout/chrome/landing?continue=https://www.google.com/_/chrome/newtab?ei%3DVR2oXK7MB9uGoAT92bbAAg&oc=https://www.google.com/_/chrome/newtab?ei%3DVR2oXK7MB9uGoAT92bbAAg&hl=ko"> 
+                <input id="login" type="text" value="  로그인">
+            </a>
+        </div>
+       
+    </div>
+
+
+
+    <div id="googleImage">
+        <img src="google image.png" width="272px">
+    </div>
+
+    <form id="textbox">
+        <input id="text" type="text" value="    Google 검색 또는 URL 입력">
+    </form>
+</body>
+</html>
